@@ -5,6 +5,3 @@ class Account:
     email = str
     password = str
     
-perro = 54
-
-print(perro)    

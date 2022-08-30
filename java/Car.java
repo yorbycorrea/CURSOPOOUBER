@@ -1,7 +1,22 @@
 public class Car {
     Integer id;
     String license;
-    String driver;
-    String passenger;
+    Account driver;
+    Integer passenger;
+
+
+    // CONSTRUCTOR METODO
+    public Car(String license, Account driver ) {
+        this.license = license;
+        this.driver = driver;
+
+
+    }
+
+
+
+    void printDataCar() {  //Esto es un metodo
+        System.out.println("License: " + license + ", Name Driver: " + driver.name);
+    }
     
 }
