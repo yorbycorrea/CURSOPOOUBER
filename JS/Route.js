@@ -1,6 +1,10 @@
-function Router() {
-    this.id;
-    this.init;
-    this.end;
-    
+class Route {
+
+    constructor() {
+        this.id;
+        this.init;
+        this,end;
+        
+
+    }
 }
